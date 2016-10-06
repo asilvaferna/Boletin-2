@@ -8,7 +8,7 @@ package boletin2_7;
 import javax.swing.JOptionPane; // Libreria JOptionPane
 
 /**
- *
+ * Ejercicio 7
  * @author Adri
  */
 public class Boletin2_7 {
@@ -21,7 +21,9 @@ public class Boletin2_7 {
             double renta ;
             n = Float.parseFloat(JOptionPane.showInputDialog("Introduce el nominal:  "));
             i = Float.parseFloat(JOptionPane.showInputDialog("Introduce el interes anual en tanto por uno:  "));
-            t = Float.parseFloat(JOptionPane.showInputDialog("Introduce el numero de años en meses:  "));
+            t = Float.parseFloat(JOptionPane.showInputDialog("Introduce el numero de años:  "));
+            t = t * 12 ;
+            i = i / 1200 ;
             renta = n * Math.pow(1 + i, t) * i / (Math.pow(1 + i,t) - 1);
             JOptionPane.showMessageDialog(null, "La renta mensual es " + renta);
 

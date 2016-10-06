@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 public class Boletin2_10 {
 
     /**
-     * @param args 
+     * @param args
      */
     public static void main(String[] args) {
 
@@ -20,8 +20,8 @@ public class Boletin2_10 {
         n20 = n100 % 20; //Damos el numero de billetes de 20
         n5 = n20 % 5; //Damos el numero de billetes de 5
         n1 = n5 % 1; //Damos el numero de monedas de 1
-        JOptionPane.showMessageDialog(null, "El total es = " + total);
+        JOptionPane.showMessageDialog(null, "La cantidad de billetes de cien es: " + n100 + "la cantidad de billetes de veinte es: " + n20 + "la cantidad de billetes de cinco es: " + n5 + "la cantidad de monedas de uno es: " + n1 ); // Mostramos por pantalla cada cantidad
 
     }
-    
+
 }
