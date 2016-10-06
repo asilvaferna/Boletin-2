@@ -19,12 +19,12 @@ public class Boletin2_7 {
     public static void main(String[] args) {
             float i, n, t ;
             double renta ;
-            n= Float.parseFloat(JOptionPane.showInputDialog("Introduce el nominal:  "));
+            n = Float.parseFloat(JOptionPane.showInputDialog("Introduce el nominal:  "));
             i = Float.parseFloat(JOptionPane.showInputDialog("Introduce el interes anual en tanto por uno:  "));
             t = Float.parseFloat(JOptionPane.showInputDialog("Introduce el numero de años en meses:  "));
             renta = n * Math.pow(1 + i, t) * i / (Math.pow(1 + i,t) - 1);
             JOptionPane.showMessageDialog(null, "La renta mensual es " + renta);
 
     }
-    
+
 }
