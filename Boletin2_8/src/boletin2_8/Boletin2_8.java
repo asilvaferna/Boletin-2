@@ -5,7 +5,7 @@
  */
 package boletin2_8;
 
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane; //Libreria JOptionPane 
 
 /**
  * Ejercicio 8
