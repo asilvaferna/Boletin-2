@@ -1,6 +1,9 @@
 package boletin2_11;
 
-import javax.swing.JOptionPane;
+/*
+  * Version b0.1.0
+  */
+        import javax.swing.JOptionPane;
 
 /**
  * Boletin 2 Ejercicio 11 y 12 
